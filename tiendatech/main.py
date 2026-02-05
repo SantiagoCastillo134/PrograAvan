@@ -24,5 +24,7 @@ producto21 = Producto("Salsa de Tomate", 12, 65)
 
 cat1=Categoria("Alimentos")
 list1 = [producto1,  producto2,  producto3,  producto4,  producto5,   producto6,  producto7,   producto8,  producto9,   producto10, producto11, producto12, producto13, producto17, producto18, producto19, producto20, producto21] 
-cat1.agregar_producto(producto2)
-print(cat1.lista_productos)
+for a in  list1:
+     cat1.agregar_producto(a)
+print(cat1.lista_productos[0].precio_base)
+cat1.balor_total_categoria()
