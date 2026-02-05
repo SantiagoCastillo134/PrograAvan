@@ -28,3 +28,4 @@ for a in  list1:
      cat1.agregar_producto(a)
 print(cat1.lista_productos[0].precio_base)
 cat1.balor_total_categoria()
+
