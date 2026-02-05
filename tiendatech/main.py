@@ -1,0 +1,28 @@
+from tiendatech import *
+
+producto1=Producto("Maruchan",16,100)
+producto2 = Producto("Coca-Cola 600ml", 18, 50)
+producto3 = Producto("Papas Sabritas Original", 17, 40)
+producto4 = Producto("Leche Entera 1L", 26, 30)
+producto5 = Producto("Pan Blanco Grande", 45, 20)
+producto6 = Producto("Huevo 12 piezas", 38, 15)
+producto7 = Producto("Arroz Blanco 1kg", 22, 60)
+producto8 = Producto("Frijol Negro 1kg", 35, 45)
+producto9 = Producto("Aceite Vegetal 1L", 42, 25)
+producto10 = Producto("Atún en Agua", 19, 80)
+producto11 = Producto("Pasta para Sopa", 9, 100)
+producto12 = Producto("Café Soluble 100g", 55, 15)
+producto13 = Producto("Azúcar Estándar 1kg", 28, 50)
+producto14 = Producto("Jabón de Tocador", 15, 70)
+producto15 = Producto("Detergente en Polvo 1kg", 34, 35)
+producto16 = Producto("Papel Higiénico 4 rollos", 25, 40)
+producto17 = Producto("Refresco de Naranja 2L", 32, 20)
+producto18 = Producto("Galletas de Chocolate", 20, 55)
+producto19 = Producto("Yogurt Natural 1kg", 48, 12)
+producto20 = Producto("Agua Mineral 600ml", 14, 90)
+producto21 = Producto("Salsa de Tomate", 12, 65)
+
+cat1=Categoria("Alimentos")
+list1 = [producto1,  producto2,  producto3,  producto4,  producto5,   producto6,  producto7,   producto8,  producto9,   producto10, producto11, producto12, producto13, producto17, producto18, producto19, producto20, producto21] 
+cat1.agregar_producto(producto2)
+print(cat1.lista_productos)
