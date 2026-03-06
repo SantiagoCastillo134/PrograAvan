@@ -55,7 +55,7 @@ class Empleado(Persona):
         if self.rol == "ADMIN":
             print("Gestionando funciones...")
         else:
-            print("No tienes permisos para gestionar funciones :c")
+            print("No tienes permisos para gestionar funciones")
 
 
 class Espacio:
@@ -82,7 +82,7 @@ class Sala(Espacio):
 
     def ocupar_asiento(self, asiento):
         if asiento in self.asientos_ocupados:
-            print("El asiento ya está ocupado :c")
+            print("El asiento ya está ocupado")
         else:
             self.asientos_ocupados.append(asiento)
             print(f"Asiento {asiento} ocupado correctamente.")
@@ -149,4 +149,5 @@ class Reserva:
 
         self.estado = "PAGADA"
         print("Reserva confirmada y pagada.")
+
 
